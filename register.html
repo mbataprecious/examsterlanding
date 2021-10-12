@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="An Online Protoring software poised at providing 
+    reliable Test and Examination Integrity with Easy/Affordable/Flexible LMS Integration. Free Integration. Sophisticated technology.
+    ">
+    <title>Examster|Online Proctoring Software</title>
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+        <!-- Bootstrap core CSS -->
+    <link href="./assets/dist/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/NoSelect.css">
+
+</head>
+<body class="random-design">
+   <header class="body-view"> 
+    <div id="wave-bg">
+      <nav class="navbar navbar-expand-md navbar-light bg-white">
+        <div class="container-xl">
+          <a href="./index.html">
+            <img src="./assets/img/examster.svg" class="mr-auto" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon dark"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item mr-lg-4 mr-md-1">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item mr-lg-4 mr-md-1">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item mr-lg-4 mr-md-1">
+            <a class="nav-link" href="faq.html">FAQ</a>
+          </li>
+          <li class="nav-item mr-lg-4 mr-md-1">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+          <li class="nav-item dropdown mr-lg-4"><span class="sr-only">(current)</span>
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Admin
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item active" href="./register.html">Signup</a>
+              <a class="dropdown-item" href="../Eamster_console/admin-signin.html">Login</a>
+            </div>
+          </li>
+        </ul>
+          <button class="btn my-2 my-sm-0 btn-orange-outline" onclick="window.location.href='../Eamster_console/candidate-signin.html';" type="submit">Take Exam</button>
+      </div>
+    </div>
+    </nav>
+    <div class="container-lg mt-5 pt-5 text-white">
+       <div class="row w-100">
+              <div class="col-lg-6 col-md-5 pt-4 d-flex justify-content-center">
+                  <div class="container px-2 py-4">
+                <h2 class="font-weight-bolder mb-2 pt-md-0 pt-sm-3 title">Get Registered today</h2>
+                    <h4 class="card-text">Become a part of the examster family</h4>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-7 d-flex justify-content-center align-items-center">
+                  <img class="img-flat w-100" src="./img/flatdesign.png" alt="div image">
+              </div>
+          </div>            
+        </div>                    
+
+      </div>
+</header>
+
+
+<img class="rand-circle" src="./img/roller.svg" alt="box">
+<img class="rand-box" src="./img/squarelayout.svg" alt="square">
+<img class="circular-fill" src="./img/circlar copy.svg" alt="circle-fill">
+
+
+<!-- registration form -->
+<form class="px-3 pb-5">
+    <div class="container-sm dark-blue">
+    <div class="welcome-title mt-3 pb-3">
+        <h2 class="font-weight-bolder text-center">Registration Form</h2>
+        <p class="text-center">Please fill in all the spaces provided</p>
+    </div>
+
+    <div class="form-row">
+        <div class="form-group mb-4 col-sm-6">
+            <label for="firstname">First Name</label>
+            <input type="text" class="form-control border-dark" name="firstname" required>
+     </div>
+     <div class="form-group mb-4 col-sm-6">
+            <label for="lastname">Last Name</label>
+            <input type="text" class="form-control border-dark" name="lastname" required>
+     </div>
+     <div class="form-group mb-4 col-sm-12">
+            <label for="email">Email</label>
+            <input type="email" class="form-control border-dark" name="email" required>
+     </div>
+     <div class="form-group mb-4 col-sm-6">
+            <label for="mobilenumber">Mobile Number</label>
+            <input type="tel" class="form-control border-dark" name="mobilenumber" required>
+     </div>
+     <div class="form-group mb-4 col-sm-6">
+            <label for="gender">Gender</label>
+            <select name="gender" class="form-control border-dark" required>
+              <option value="none" selected disabled hidden>Choose...</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="others">Others</option>
+            </select>
+     </div>
+     <div class="form-group mb-4 col-sm-6">
+        <label  for="country">Country</label>
+        <select id="countySel" name="country" class="form-control border-dark" required>
+          <option value="none" selected disabled hidden>Choose...</option>
+        </select>
+      </div>
+      
+     <div class="form-group mb-4 col-sm-6">
+        <label  for="state">State</label>
+        <select id="stateSel" name="state" class="form-control border-dark" required>
+          <option value="none" selected disabled hidden>Choose...</option>
+        </select>
+      </div>
+     <div class="form-group mb-4 col-sm-12">
+        <label for="city">city</label>
+        <select id="citySel" name="city" class="form-control border-dark">
+          <option value="none" selected disabled hidden>Choose...</option>
+        </select>
+      </div>
+      <div class="form-group mb-4 col-sm-12">
+        <label for="institution">Name of institution</label>
+        <input type="text" class="form-control border-dark" name="institution" required>
+     </div>
+      <div class="form-group mb-4 col-sm-12">
+        <label for="address">Address of Institution</label>
+        <textarea type="text" class="form-control border-dark sm" name="address"></textarea> 
+      </div>
+      <div class="form-group mb-4 col-sm-12">
+        <label for="job-title">Job title</label>
+        <input type="text" class="form-control border-dark" name="job-title" required>
+     </div>
+      <div class="form-group mb-4 col-sm-6">
+        <label  for="password">Password</label>
+        <input id="password" type="password" class="form-control border-dark" name="password" required>
+     </div>
+      <div class="form-group mb-4 col-sm-6">
+        <label for="confirmPassword">Confirm Password</label>
+        <input id="confirmPassword" type="password" class="form-control border-dark" name="confirmPassword" required>
+     </div>
+
+      <!-- custom check-box including terms of service check -->
+    
+    <div class="mx-3 my-5 w-100 ">
+      <div id="error"  class="p-3 mb-2 form-control text-danger is-invalid invisible" style="height: fit-content;">
+             
+      </div>
+
+    <div class="terms">
+      <div class="d-flex">
+      <a class="dark-blue font-weight-bold mr-2" data-toggle="modal" role="button" data-target="#exampleModalLong">
+        Terms of services</a>
+        <p>|</p>
+        <p>|</p>
+        <a class="dark-blue font-weight-bold ml-2" href="#">Privacy policy</a>
+      </div>
+    </div>
+    <div class="w-100">
+        <input class="inp-cbx" id="accept" type="checkbox"/>
+        <label class="cbx d-flex align-items-center" for="accept"><span>
+                <svg width="12px" height="10px" id="check" viewBox="0 0 12 10">
+                    <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+            </svg></span><p class="sm-text mb-0 dark-blue">I agree to the terms and conditions of Examster</p></label>      
+    </div>
+    
+
+    </div>
+
+  </div>
+
+
+<div class="d-flex justify-content-center">
+    <button id="register" class="btn  mb-5 px-5 mx-3 btn-dark-blue" type="submit" disabled>&nbsp;Submit&nbsp;</button>    
+</div>
+
+   </div>
+
+</form>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Terms of Services</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        These Terms of Services (“Terms”) govern your access to and use of Examster Inc.’s (“Examster”, “We”, 
+        or “Our”) website(s), browser extensions, platforms, applications, and other services (collectively, 
+        our “Services”). These Terms also apply to any information, text, audio, video, images, graphics, code, 
+        extensions, or other materials created uploaded, downloaded, transferred or otherwise appearing on or 
+        connected with the Services when you interact with Examster, including recordings of any test sessions 
+        (collectively referred to as “Content”).
+        <p class="font-weight-bold pt-3">1. Using Examster’s Services</p>
+        To use our Services, you need compatible hardware, software, and internet access. Examster is not responsible for 
+        any equipment or network malfunction or service disruption that affects your test session. By accessing or using 
+        Examster’s Services you agree to comply with and to be bound by these Terms. Do not access or use our Services if 
+        you do not agree to these Terms. Examster reserves the right to terminate any user or account and/or to suspend or 
+        end access to the Services, without notice to you, if it has reason to believe you have violated these Terms or if 
+        it has been validly instructed to do so by your Testing Institution.
+        <p class="font-weight-bold pt-3">2. Basic Terms</p>
+        You are responsible for your use of the Services and for any consequences thereof. The Services are being provided 
+        to you by Examster for the benefit of your college, university, instructor, school, organization, certification 
+        administrator, or other test delivery partner (hereafter, the “Testing Institution”). The Content you submit, post, 
+        or display, including all audio and video recordings or images, including any recordings or images of you made by the 
+        services during your test session(s), will be shareable with and viewed by your Testing Institution. You may use the 
+        Services only in compliance with these Terms and any applicable local, state, national, and international laws, rules, 
+        and regulations. The form and nature of the Services that Examster provides may change from time to time without prior 
+        notice to you. Additionally, Examster may stop (permanently or temporarily) providing the Services (or any features 
+        within the Services) to you without prior notice. As a user of the Services, you are prohibited from photographing, or 
+        recording, by video or sound, any part of Examster’s Services for any purpose, unless Examster has granted you express
+         written permission to do so. You may not remove copies of test questions or test answers, and you may not share or 
+         discuss with anyone any of the test questions, test content, or test answers you viewed during your test.
+        <P class="m-0 p-0">
+          We reserve the right to adjust our fees from time to time, without providing prior notice. 
+          The current fee schedule is available through your Testing Institution, and it is fully incorporated 
+          herein by reference. The incorporation of the fee schedule, by reference, includes any changes to pricing 
+          or availability of choices. Unless your Testing Institution is paying your test session fees directly to us, 
+          you are responsible for all fees and costs associated with your use of the Services, including any fees for 
+          “premium” services that you select.
+        </P>
+
+        <p class="font-weight-bold pt-3">3. Privacy</p>
+        Examster’s current Privacy Policy (available here) is expressly incorporated into these Terms by reference. 
+        Your use of the Services and any Content that you provide during your interaction with Examster is subject to 
+        our Privacy Policy, which governs how your information and any Content you provide is collected and forwarded to 
+        your Testing Institution.
+        <p class="font-weight-bold pt-3">4. Identity Authentication</p>
+        By selecting to use the Services, you agree to provide only true and accurate information to authenticate your identity.
+        <p class="font-weight-bold pt-3">1. Using Examster’s Services</p>
+        <p class="font-weight-bold pt-3">1. Using Examster’s Services</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark-blue" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<footer class="bg-dark-blue mt-5">
+  <div class="container-lg p">
+  
+  <div class="row px-5 px-xl-0 px-lg-0 px-md-5">
+      <div class="col-lg-3 col-md-6 d-flex flex-column justify-content-start">
+      <div class="logo mt-5">
+          <img src="./img/Examster_light.svg" alt="examster icon">
+      </div>
+      <div class="contact mt-5 mb-3 d-flex justify-content-start align-items-center">
+          <img src="./img/phone.svg" alt="phone icon">
+          <p class="text-white ml-4 mb-0">+234 XXXXX XXXX</p>
+      </div>
+      <div class="contact  mb-3 d-flex justify-content-start align-items-center">
+          <img src="./img/ic_baseline-email.svg" alt="phone icon">
+          <p class="text-white ml-4 mb-0">ourmail@email.com</p>
+      </div>
+      <div class="contact mb-3 d-flex justify-content-start align-items-center">
+          <img src="./img/entypo_location.svg" alt="phone icon">
+          <p class="text-white ml-4 mb-0">Our location if necessary</p>
+      </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 d-flex flex-column justify-content-center text-white">
+          <div class="contact  d-flex justify-content-start align-items-center ">
+              <h4 class="font-weight-bold pl-2 mt-5">Quick Links</h4>
+          </div>
+          <div class="contact mt-4 mb-4 d-flex justify-content-start align-items-center">
+              <div class="dots bg-white"></div>
+                <a href="#" class="text-white ml-4 mb-0">Adiminstrator</a>
+          </div>
+          <div class="contact mb-4 d-flex justify-content-start align-items-center">
+              <div class="dots bg-white"></div>
+                <a href="#" class="text-white ml-4 mb-0">FAQs</a>
+          </div>
+          <div class="contact  mb-4 d-flex justify-content-start align-items-center">
+              <div class="dots bg-white"></div>
+                <a data-toggle="modal" data-target="#exampleModalLong" class="text-white ml-4 mb-0">Terms of Services</a>
+          </div>
+          <div class="contact  mb-4 d-flex justify-content-start align-items-center">
+              <div class="dots bg-white"></div>
+                <a href="#" class="text-white ml-4 mb-0">Contact Us</a>
+          </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex flex-column justify-content-start text-white">
+          <div class="contact container d-flex justify-content-start align-items-center ">
+              <h4 class="font-weight-bold pl-2 mt-5">Features</h4>
+          </div>
+          <div class="contact mt-4 mb-4 d-flex justify-content-start align-items-center">
+              <div class="dots bg-white"></div>
+                <a href="#" class="text-white ml-2 mb-0">Registration</a>
+          </div>
+          <div class="contact mb-4 d-flex justify-content-start align-items-center">
+              <div class="dots bg-white"></div>
+                <a href="#" class="text-white ml-2 mb-0">Authentication</a>
+          </div>
+          <div class="contact mb-4 d-flex justify-content-start align-items-center">
+              <div class="dots bg-white"></div>
+                <a href="#" class="text-white ml-2 mb-0">Monitoring</a>
+          </div>                        
+      </div>        
+      <div class="col-lg-3 col-md-6 d-flex flex-column justify-content-start text-white">           
+          <div class="contact container mt-5 d-flex flex-column pb-4">
+            <h4 class="font-weight-bolder">Subscribe to our Newsletter</h4>
+          </div>            
+          <div class="contact d-flex justify-content-start align-items-center">
+            <div class="w-100 mb-3">
+              <input type="text" class="form-control" placeholder="Enter email">
+              <div class="mt-4">
+                <button class="btn btn-orange-outline" type="button">Subscribe</button>
+              </div>
+            </div>
+          </div>            
+      </div>        
+      </div>
+
+  <div class="container border border-top my-3"></div>
+  <div class="p-5">
+     <p class="text-white text-center">All rights Reserverd &copy; 2020 Examster Systems</p>       
+  </div>
+
+
+
+  </div>
+</footer>
+
+
+      <script src="./assets/js/vendor/jquery.slim.min.js"></script>
+      <script src="./register.min.js"></script>
+      <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
+      <script>
+
+        let password=document.getElementById('password')
+        let confirmPassword=document.getElementById('confirmPassword')
+
+
+        password.oninput=function(e){
+            checkPasswordValidity(password)
+        }
+        confirmPassword.oninput=function(e){
+            checkPasswordValidity(confirmPassword)
+          passwordMatchSubmit(password,confirmPassword)
+        }
+        function showError(msg){
+         let msgElement= document.getElementById('error')
+         msgElement.classList.remove('invisible')
+          msgElement.innerHTML=msg
+        }
+        function showSuccess(){
+         let msgElement= document.getElementById('error')
+         msgElement.classList.add('invisible')
+        }
+          const checkPasswordValidity=(input)=>{
+            var strongRegex = new RegExp("^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.{8,})");
+            if(strongRegex.test(String(input.value.trim()).toString())){
+              showSuccess()
+              return true
+            }else{
+              showError(`must be 8 character long containing atleast one numeric, upper and lowercase letters`)
+              return false
+            }
+            return false
+          }  
+          
+            const passwordMatchSubmit=(passArray,conPassArray)=>{
+            if((conPassArray.value.trim()!=='') && (passArray.value.trim()===conPassArray.value.trim()) ){
+            console.log(conPassArray)
+            showSuccess()
+            return true   
+            }else{
+
+            showError('confirm password is not same with the password')
+            return false
+            }
+            return false;
+            }
+      </script>
+</body>
+
+</html>
